@@ -7,17 +7,30 @@ p{
 }
 .content {
     display: flex;
-    background-color: rgb(201, 199, 199)  ;
+    background-size: cover;
     height: 700px;
     width: 100%;
     flex-direction: column;
+    background-image:url(/images/fondo2.jpg);
+    background-attachment: fixed;
     
 }
 
 .content_2 {
     display: flex;
-    background-color: white  ;
-    height: 700px;
+    
+    height: 900px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+}
+
+.content_3 {
+    display: flex;
+    
+    height: 1000px;
     width: 100%;
     flex-direction: column;
     align-items: flex-start;
@@ -83,6 +96,9 @@ header {
     height: 50px;
     width: 100%;
     align-items: center;
+    border-top:solid 1px;
+    border-bottom:solid 1px;
+    border-color: black;
 }
 footer{
     display: flex;
@@ -97,6 +113,7 @@ nav {
 .center_part {
     display: flex;
     height: 700px;
+    
     align-items: center;
     padding-left: 15%;
     
@@ -187,3 +204,66 @@ nav {
     flex-grow: 2;
 }
 
+
+.mail_subscription_box{
+    display: flex;
+    margin-left: 200px;
+    color:black;
+    background-color:rgb(186, 110, 16) ;
+    border: solid 0px;
+    border-radius: 30px;
+    border-color: rgb(186, 110, 16) ;
+    width: 1000px;
+    height: 150px;
+    margin-top: 40px;
+    align-items: center;
+}
+#mail_subscription_box_div{
+    
+    margin-left: 50px;
+    flex-grow: 2;
+}
+
+#mail_subscription_box_title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight:500;
+}
+
+#mail_subscription_box_text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#mail_subscription_box_button{
+    border:solid 2px;
+    border-radius: 50px;
+    border-color: antiquewhite;
+    width:200px;
+    margin-right: 150px;
+    height: 50px;
+    align-items: center;
+    
+}
+
+#mail_subscription_box_button_links{
+   margin-top: 10px; 
+   margin-left: 50px;
+}
+.mail_subscription_box_button_links_text{
+    margin-right: 15px;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .squares_2_horizontal{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 200px;
+ }
+ .squares_2_horizontal_top_gap{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-left: 200px;
+ }
